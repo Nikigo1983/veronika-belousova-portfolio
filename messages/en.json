@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "title": "Veronika Belousova — Premium Web Developer",
+    "description": "Premium web developer based in Portugal. High-converting websites, performance, and results for businesses that value quality."
+  },
+  "nav": {
+    "menuOpen": "Open menu",
+    "menuClose": "Close menu",
+    "home": "Home",
+    "work": "Work",
+    "about": "About",
+    "services": "Services",
+    "advantages": "My approach",
+    "results": "Results",
+    "portfolio": "Portfolio",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  },
+  "header": {
+    "brand": "VB",
+    "langEn": "EN",
+    "langRu": "RU"
+  },
+  "hero": {
+    "name": "Veronika Belousova",
+    "title": "Premium Web Developer",
+    "tagline": "I build websites that increase sales and strengthen trust in your business",
+    "ctaWork": "View Work",
+    "ctaContact": "Get in Touch",
+    "photoAlt": "Veronika Belousova — portrait"
+  },
+  "about": {
+    "label": "About",
+    "trustTitle": "A website as a trust instrument",
+    "trustParagraphs": [
+      "Today almost anyone can launch a website. Building one that earns trust and brings clients is a completely different challenge.",
+      "My background is in journalism and marketing, so I know how to listen, ask precise questions, and sense what people really need.",
+      "In development I combine that with code—turning business ideas into clear, living interfaces where form, meaning, and ease of use work together."
+    ],
+    "educationTitle": "Education",
+    "edu1School": "Tyumen State University",
+    "edu1Meta": "Bachelor's in journalism · 2000 – 2005",
+    "edu2School": "Can She Code Bootcamp · Montreal, Canada",
+    "edu2Meta": "Frontend developer · JavaScript, React · 2022",
+    "certificatesTitle": "Development training — certificates",
+    "certificateAlts": [
+      "Certificate of completion — web development training (1)",
+      "Certificate of completion — web development training (2)",
+      "Certificate of completion — web development training (3)"
+    ],
+    "certificateOpenHint": "Open full size"
+  },
+  "services": {
+    "label": "Services",
+    "heading": "What I build",
+    "expandItem": "Details",
+    "collapseItem": "Hide",
+    "items": [
+      {
+        "title": "Landing pages (high-converting)",
+        "detail": "Single-page sites that guide people toward an action—leave a request, book an appointment, or buy. Thoughtful structure, strong copy, and logic that actually performs."
+      },
+      {
+        "title": "Corporate websites",
+        "detail": "Sites that reflect your level, explain what you do, and build trust within seconds. Clean structure, intuitive navigation, and a polished presentation."
+      },
+      {
+        "title": "E-commerce websites",
+        "detail": "Fast, easy-to-use stores where people can choose, purchase, and come back again. No clutter—only what helps the customer decide."
+      },
+      {
+        "title": "Website redesign",
+        "detail": "I rework existing sites: remove noise, simplify structure, and bring the look up to date so the site starts delivering real results."
+      },
+      {
+        "title": "Custom development (React / JavaScript)",
+        "detail": "Built from scratch for your goals—no templates, no platform limits. Clean code, flexibility, and room to implement ambitious ideas."
+      }
+    ]
+  },
+  "advantages": {
+    "label": "My approach",
+    "heading": "Why it works",
+    "items": [
+      {
+        "title": "No templates or builders—just code",
+        "detail": "Your site is built from scratch for your business: it runs faster, looks distinctive, and is not limited by what a platform allows."
+      },
+      {
+        "title": "A site that helps you capture leads",
+        "detail": "The structure is designed so people quickly understand your offer and take the next step—message you, book, or buy."
+      },
+      {
+        "title": "Immersion in the business problem",
+        "detail": "Before we start, I study your product and audience so the site does not simply “exist,” but actually performs."
+      },
+      {
+        "title": "Reliability and security",
+        "detail": "Code-first sites are more stable, break less often, and are better protected against compromise."
+      },
+      {
+        "title": "Economical over the long run",
+        "detail": "No unnecessary subscriptions or platform lock-in—the site is easier to maintain and less costly to run over time."
+      },
+      {
+        "title": "Clean, careful engineering",
+        "detail": "Fast loading, stable behavior, and straightforward paths to evolve the product as the business grows."
+      },
+      {
+        "title": "Ease for the user",
+        "detail": "Everything clear, logical, and where it belongs—that builds trust and increases the chance someone reaches out."
+      },
+      {
+        "title": "Ready for growth and promotion",
+        "detail": "Built with future marketing in mind—so when you turn on ads, the site supports results instead of demanding a rebuild."
+      }
+    ]
+  },
+  "results": {
+    "label": "Value",
+    "heading": "Results that compound",
+    "p1": "I help businesses lift conversion and sales without increasing ad spend.",
+    "p2": "Your website should not just look good — it should generate revenue."
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "heading": "Selected work",
+    "visitSite": "Visit live site",
+    "projects": [
+      {
+        "title": "THE GOLDEN HORSE",
+        "description": "Dubai art gallery inspired by the grace and strength of horses — a refined digital space where legacy begins, emotion takes form, and living with art becomes a lifestyle.",
+        "url": "https://goldenhorse-two.vercel.app/"
+      },
+      {
+        "title": "KITCHEN by true Taste",
+        "description": "Brunch café in Torres Vedras, Portugal — full site with menu, events, gallery, reviews, and WhatsApp reservations; warm editorial layout and strong food photography rhythm.",
+        "url": "https://kitchen-truetaste.pt/"
+      },
+      {
+        "title": "Sudfinex",
+        "description": "Corporate site for an independent forensic accounting and financial expertise center in Russia — clear service architecture, trust-led content, and dense legal-grade information made scannable.",
+        "url": "https://www.sudfinex.ru/"
+      },
+      {
+        "title": "Sharp & Spice",
+        "description": "Creative agency website with a bold, expressive identity and clear growth message — sharp ideas that go beyond the ordinary through strategy, visual language, and digital products that help brands stand out and inspire.",
+        "url": "https://kaleidoscopic-sopapillas-a15621.netlify.app/"
+      },
+      {
+        "title": "s:stebler",
+        "description": "Multilingual website for a Swiss manufacturer of intelligent space solutions — product pillars, news, events, and showroom journeys with a precise architectural visual language. I contributed to the project as part of a collaborative team.",
+        "url": "https://www.stebler.ch/de"
+      }
+    ]
+  },
+  "testimonials": {
+    "label": "Testimonials",
+    "heading": "What clients say",
+    "items": [
+      {
+        "context": "Art gallery, The Golden Horse (Dubai)",
+        "quote": "Veronika built the site for our gallery, The Golden Horse, and from the first call it felt like she was inside the project with us — not just ticking boxes. She really got what we care about: art, horses, and the story we want to leave behind. The result is elegant, calm, and true to us. I’m genuinely happy to share the link with collectors and friends.",
+        "name": "Daria Tretskova",
+        "role": "Co-owner of the art gallery, Art manager, Art producer, horse rider"
+      },
+      {
+        "context": "Financial expertise center (Russia)",
+        "quote": "Veronika quickly understood the specifics of our work — complex and trust-driven. The website turned out clear, structured, and highly professional. I especially appreciated her attention to detail and smooth communication throughout the project.",
+        "name": "Elena Kashporova",
+        "role": "Founder, ANO TsNSBiFE"
+      },
+      {
+        "context": "Brunch café (Portugal)",
+        "quote": "It was important for me to reflect the atmosphere of our café — style, taste, and mood. Veronika captured it perfectly. The website looks beautiful, is easy to use, and truly helps us get more bookings.",
+        "name": "Oksana Golovanova",
+        "role": "Chef & Founder, KITCHEN by True Taste"
+      },
+      {
+        "context": "Creative agency (Slovakia)",
+        "quote": "As a creative agency, we have high standards — and Veronika delivered. Clean code, strong design, and a clear understanding of business needs. Working with her was both easy and professional.",
+        "name": "Zlata Moroz",
+        "role": "Founder, Sharp & Spice"
+      }
+    ]
+  },
+  "contact": {
+    "label": "Contact",
+    "heading": "Let’s build something exceptional",
+    "languagesLabel": "Working languages",
+    "languagesLead": "English · Russian",
+    "location": "Based in Portugal",
+    "emailLabel": "Email",
+    "linkedinLabel": "LinkedIn",
+    "linkedinLink": "LinkedIn profile",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send message",
+    "formSubmitting": "Sending...",
+    "formSuccess": "Thank you! Your message has been sent successfully.",
+    "formError": "Something went wrong. Please try again or contact me via email/LinkedIn.",
+    "email": "virineya1983@gmail.com",
+    "linkedinHref": "https://www.linkedin.com/in/veronika-belousova-877519238",
+    "messengerLabel": "WhatsApp / Telegram",
+    "phoneDisplay": "+351 912 768 611",
+    "phoneTel": "+351912768611",
+    "whatsappHref": "https://wa.me/351912768611",
+    "telegramHref": "https://t.me/+351912768611",
+    "whatsappLink": "WhatsApp",
+    "telegramLink": "Telegram"
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "scrollToTop": "Back to top"
+  }
+}
