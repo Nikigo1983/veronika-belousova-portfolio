@@ -9,6 +9,7 @@ import { LanguageSwitcher } from "./LanguageSwitcher";
 const navKeys = [
   { href: "#hero", key: "home" as const },
   { href: "#portfolio", key: "portfolio" as const },
+  { href: "#digital-tools", key: "digitalTools" as const },
   { href: "#about", key: "about" as const },
   { href: "#services", key: "services" as const },
   { href: "#testimonials", key: "testimonials" as const },

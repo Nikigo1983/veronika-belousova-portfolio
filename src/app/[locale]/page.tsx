@@ -6,6 +6,7 @@ import { Services } from "@/components/sections/Services";
 import { Advantages } from "@/components/sections/Advantages";
 import { Results } from "@/components/sections/Results";
 import { Portfolio } from "@/components/sections/Portfolio";
+import { DigitalTools } from "@/components/sections/DigitalTools";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Contact } from "@/components/sections/Contact";
 
@@ -20,6 +21,7 @@ export default async function HomePage() {
         <Advantages />
         <Results />
         <Portfolio />
+        <DigitalTools />
         <Testimonials />
         <Contact />
       </main>

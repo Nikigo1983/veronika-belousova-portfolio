@@ -13,6 +13,7 @@
     "advantages": "My approach",
     "results": "Results",
     "portfolio": "Portfolio",
+    "digitalTools": "Digital tools",
     "testimonials": "Testimonials",
     "contact": "Contact"
   },
@@ -24,7 +25,7 @@
   "hero": {
     "name": "Veronika Belousova",
     "title": "Premium Web Developer",
-    "tagline": "I build websites that increase sales and strengthen trust in your business",
+    "tagline": "I build websites and digital business tools that increase sales and strengthen trust in your business",
     "ctaWork": "View Work",
     "ctaContact": "Get in Touch",
     "photoAlt": "Veronika Belousova — portrait"
@@ -130,7 +131,7 @@
       {
         "title": "THE GOLDEN HORSE",
         "description": "Dubai art gallery inspired by the grace and strength of horses — a refined digital space where legacy begins, emotion takes form, and living with art becomes a lifestyle.",
-        "url": "https://goldenhorse-two.vercel.app/"
+        "url": "https://www.goldenhorse.art/"
       },
       {
         "title": "KITCHEN by true Taste",
@@ -151,6 +152,30 @@
         "title": "s:stebler",
         "description": "Multilingual website for a Swiss manufacturer of intelligent space solutions — product pillars, news, events, and showroom journeys with a precise architectural visual language. I contributed to the project as part of a collaborative team.",
         "url": "https://www.stebler.ch/de"
+      }
+    ]
+  },
+  "digitalTools": {
+    "label": "Digital tools",
+    "heading": "Digital business tools",
+    "intro": "Forms, client portals, and applications — real solutions I design, launch, and support for clients.",
+    "projects": [
+      {
+        "title": "Croatia digital nomad intake form",
+        "description": "A short online form: clients enter their details in Latin script and submit a request — so we can connect faster and start residence permit support.",
+        "visitLabel": "Open form",
+        "url": "https://share.formgrid.com/KB6n6nNQ8I8i0U5E"
+      },
+      {
+        "title": "Emigrant Croatia Desk",
+        "description": "A client portal where clients see the current stage of their Croatian residence permit case. Includes a client area and an admin panel for the team.",
+        "visitLabel": "Sign in to portal",
+        "url": "https://emigrant-croatia-desk.vercel.app/auth",
+        "highlights": [
+          "Case stages and status in one place",
+          "Access granted by an Emigrant administrator",
+          "Client zone and panel for the support team"
+        ]
       }
     ]
   },
