@@ -1,14 +1,14 @@
 {
   "meta": {
-    "title": "Veronika Belousova — Custom digital workspaces for growing businesses",
-    "description": "I design and build custom digital workspaces for small and growing businesses — bringing clients, teams, documents, workflows and AI together in one place."
+    "title": "Veronika Belousova — Custom digital workspaces for small businesses",
+    "description": "I design and build custom digital workspaces for small and growing businesses — one place for clients, your team, documents, daily work, and helpful AI tools."
   },
   "nav": {
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "capabilities": "What I build",
-    "caseStudy": "Case study",
-    "process": "How we work",
+    "capabilities": "What you get",
+    "caseStudy": "Example project",
+    "process": "How it works",
     "about": "About",
     "faq": "FAQ",
     "contact": "Contact",
@@ -17,158 +17,155 @@
   "header": {
     "brand": "VB",
     "brandName": "Veronika Belousova",
-    "brandTag": "Founder & AI Product Engineer",
+    "brandTag": "Custom business workspaces",
     "langEn": "EN",
     "langRu": "RU"
   },
   "hero": {
-    "badge": "Custom digital workspaces",
+    "badge": "For small & growing businesses",
     "title": "Your business doesn't need another app. It needs a system that actually fits.",
-    "tagline": "I design and build custom digital workspaces for small and growing businesses — bringing clients, teams, documents, workflows and AI together in one place.",
-    "support": "Built around how your business works. Not the other way around.",
+    "tagline": "I design and build a custom digital workspace for your company — so client details, documents, tasks, and your team live in one place instead of five different tools.",
+    "support": "Built around how your business already works. Not the other way around.",
     "ctaPrimary": "Discuss your project",
-    "ctaSecondary": "See a real project",
-    "role": "Founder & AI Product Engineer",
+    "ctaSecondary": "See an example project",
+    "role": "Founder · builds custom workspaces for small businesses",
     "photoAlt": "Veronika Belousova — portrait"
   },
   "problem": {
-    "label": "The problem",
-    "heading": "Scattered tools slow teams down",
-    "intro": "Most growing businesses don't lack software. They lack a connected place where work actually happens.",
+    "label": "Sound familiar?",
+    "heading": "When tools don't talk to each other, work gets messy",
+    "intro": "If your team spends the day jumping between chats, spreadsheets, email, and folders — this is for you.",
     "items": [
       {
-        "title": "Tools everywhere",
-        "detail": "Clients live in one app, documents in another, tasks in a third — and nobody has the full picture."
+        "title": "Client info is scattered",
+        "detail": "One person has the notes in WhatsApp. Another has files in Drive. Someone else updated a spreadsheet last week. Finding the truth takes too long."
       },
       {
-        "title": "Duplicated work",
-        "detail": "The same details get retyped between forms, chats, and spreadsheets. Time disappears into busywork."
+        "title": "The same details get typed again",
+        "detail": "Names, dates, and documents are re-entered into forms and messages. Small mistakes slip in, and the day fills with busywork."
       },
       {
-        "title": "Missing context",
-        "detail": "When information is split, decisions slow down and handoffs break. People chase updates instead of serving customers."
+        "title": "Hand-offs break",
+        "detail": "When a colleague takes over a client, context is missing. Customers feel it — and your team feels the stress."
       },
       {
-        "title": "Manual processes",
-        "detail": "Approvals, reminders, and routine checks stay human-only — even when they could be guided or automated carefully."
+        "title": "Routine steps stay manual",
+        "detail": "Reminders, status checks, and simple follow-ups still depend on someone remembering. Things get delayed."
       }
     ]
   },
   "capabilities": {
-    "label": "What I can build",
-    "heading": "A workspace shaped around your operations",
-    "intro": "These are options we can combine for your company — not a fixed package you have to buy as one product.",
+    "label": "What you receive",
+    "heading": "A workspace built for your company — not a one-size product",
+    "intro": "You don't buy a fixed package. We pick the pieces your business needs first, then add more only when they help.",
     "items": [
       {
-        "title": "Custom digital office",
-        "detail": "A shared home for your business: the screens, roles, and flows your team actually uses every day."
+        "title": "One digital home for the business",
+        "detail": "A shared place your team logs into every day — with the screens and roles that match how you actually work."
       },
       {
-        "title": "Client records & portals",
-        "detail": "Keep client information organised, and open a clear client-facing space when your process needs one."
+        "title": "Client records (and a client area if needed)",
+        "detail": "Keep client details organised in one record. If useful, give clients a simple place to see status or share documents."
       },
       {
-        "title": "Document workflows",
-        "detail": "Store, review, and move documents through the steps your business already follows."
+        "title": "Documents in the right order",
+        "detail": "Files stay attached to the right client and move through your real steps — review, approve, send — without hunting folders."
       },
       {
-        "title": "Task management",
-        "detail": "Assign work, track progress, and keep ownership visible across the team."
+        "title": "Clear ownership of work",
+        "detail": "Tasks show who is doing what, what's waiting, and what is done — so nothing important disappears into a chat thread."
       },
       {
-        "title": "Communication & meetings",
-        "detail": "Bring team chat and video meetings into the same environment when that reduces context switching."
+        "title": "Team chat and video in context",
+        "detail": "When it helps, conversation and meetings sit next to the client or project — so people stop switching apps for every update."
       },
       {
-        "title": "Practical AI assistants",
-        "detail": "Use AI where it helps — drafting, sorting, summarising, or supporting document review — without turning your business into an experiment."
+        "title": "Helpful AI for everyday work",
+        "detail": "Practical help with drafts, summaries, sorting, or document review — used carefully, where it saves time, not as a gimmick."
       },
       {
-        "title": "Integrations & automation",
-        "detail": "Connect tools you already rely on and automate the repetitive steps that eat into your week."
+        "title": "Connect tools you already use",
+        "detail": "Where it makes sense, we link the software you already rely on, so you are not forced to replace everything on day one."
       }
     ]
   },
   "whyCustom": {
     "label": "Why custom",
-    "heading": "Tailored to your process — not a shelf of features",
-    "intro": "Off-the-shelf software is often the right choice. Custom work makes sense when your process is the product — and existing tools force awkward workarounds.",
+    "heading": "Ready-made software is fine — until it fights your process",
+    "intro": "Many businesses can run on standard tools. Custom work is for when those tools force awkward workarounds, extra spreadsheets, or constant copying between systems.",
     "items": [
       {
-        "title": "Built around real workflows",
-        "detail": "We start from how your team already works, then design the system to support that flow."
+        "title": "Fitted to your real process",
+        "detail": "We start from how your team already serves customers — then build the workspace to support that flow."
       },
       {
-        "title": "Modular by design",
-        "detail": "Add only what you need now. Expand later when the next process is ready."
+        "title": "Start small, grow on purpose",
+        "detail": "Launch with the first problem that hurts most. Add the next module when the team is ready."
       },
       {
-        "title": "Incremental rollout",
-        "detail": "Ship in stages so your team can adopt changes without freezing day-to-day operations."
+        "title": "Change without freezing the business",
+        "detail": "We roll out in stages so daily work continues while the new system takes over piece by piece."
       },
       {
-        "title": "Works with what you have",
-        "detail": "When it is practical, we integrate existing systems instead of forcing a full replacement."
+        "title": "Keep what still works",
+        "detail": "If an existing tool is doing its job, we keep it in the picture whenever connecting it is practical."
       }
     ]
   },
   "caseStudy": {
-    "label": "Featured case study",
-    "heading": "SPIORA — a custom workspace for an immigration business",
-    "contextTitle": "Business context",
-    "context": "Immigration work depends on accurate client records, careful document handling, and clear coordination across the team. Spreadsheets and disconnected tools make that harder as volume grows.",
-    "solutionTitle": "What we built",
-    "solution": "SPIORA is a custom digital workspace designed around that operating model — one place for client work, team coordination, and practical AI support. It is not a one-size-fits-all SaaS product; the shape of the platform follows the business process.",
-    "capabilitiesTitle": "Capabilities included in the platform",
-    "capabilitiesNote": "Listed from the implemented product surface. Some integrations can be enabled per environment.",
+    "label": "Example project",
+    "heading": "SPIORA: a custom workspace for an immigration services business",
+    "contextTitle": "The situation",
+    "context": "An immigration services team needs accurate client records, careful document handling, and clear hand-offs between people. As the caseload grows, spreadsheets and disconnected chats stop being enough.",
+    "solutionTitle": "What they received",
+    "solution": "SPIORA is a custom digital workspace built around that company's way of working — one place for client work, team coordination, and practical AI help. It is not a generic product sold the same way to every business.",
+    "capabilitiesTitle": "What the workspace includes",
+    "capabilitiesNote": "Based on the built product. Some extras (like video meetings) can be turned on when the environment is ready.",
     "capabilities": [
-      "Client records and CRM-style client views",
+      "Client records in one organised place",
       "Team tasks and shared calendars",
       "Team chat for day-to-day coordination",
-      "Knowledge base for internal reference material",
-      "AI workspace for practical assisted work",
-      "Analytics overview for owners and managers",
-      "Video meetings support (LiveKit) when enabled for the environment",
-      "Role-based access and account settings, including MFA options"
+      "Internal knowledge base for reference material",
+      "AI support for everyday assisted work",
+      "Simple analytics for owners and managers",
+      "Optional video meetings when enabled",
+      "Role-based access, with stronger login options when needed"
     ],
-    "disclaimer": "No private client data, internal URLs, or confidential screenshots are shown here. Metrics and client quotes are not invented.",
-    "cta": "Discuss a similar project"
+    "disclaimer": "This page does not show private client data, internal links, or confidential screenshots. No invented results or fake client quotes.",
+    "visualPending": "Approved public logo and demo screenshots are not included yet — pending operator approval of assets that contain no personal data.",
+    "cta": "Discuss a project like this"
   },
   "process": {
-    "label": "How we work",
-    "heading": "A clear path from conversation to launch",
-    "intro": "You always know what happens next — and what we are validating before we invest in the next stage.",
+    "label": "How engagement works",
+    "heading": "Discovery → first scoped solution → launch → optional expansion",
+    "intro": "You always know the stage we are in, what you will get next, and what we are checking before we go further.",
     "steps": [
       {
-        "title": "Discovery",
-        "detail": "We map how your business works today: people, tools, bottlenecks, and the outcomes that matter."
+        "title": "1. Discovery",
+        "detail": "We talk through how your business works today: who does what, which tools you use, and where time and mistakes pile up."
       },
       {
-        "title": "Scope & prototype",
-        "detail": "We define a focused first version and shape key screens so the direction is concrete before full build."
+        "title": "2. First scoped solution",
+        "detail": "We agree a focused first version — clear screens, roles, and outcomes — so you know exactly what will be built before full development."
       },
       {
-        "title": "Build & validate",
-        "detail": "We implement in stages, test with real workflows, and adjust based on what the team actually needs."
+        "title": "3. Launch",
+        "detail": "We build, test with real workflows, and go live carefully: access, roles, and a handoff your team can run."
       },
       {
-        "title": "Launch",
-        "detail": "We go live carefully — with access, roles, and handoff that your team can operate."
-      },
-      {
-        "title": "Improve",
-        "detail": "After launch we refine based on usage: fix friction, add the next module, and keep the system useful."
+        "title": "4. Optional expansion & support",
+        "detail": "After launch we can add the next module, fix friction, and keep supporting the workspace as your business changes."
       }
     ]
   },
   "about": {
     "label": "About",
-    "heading": "I listen to how businesses work — then build the system around it",
+    "heading": "I listen first — then build the system around your business",
     "role": "Founder & AI Product Engineer",
     "paragraphs": [
-      "My background is in journalism. That training is still the foundation of how I work: ask precise questions, listen carefully, and find the real process behind the request.",
-      "I moved into product and engineering because growing teams need more than another disconnected tool. They need a digital workspace that matches how people actually collaborate.",
-      "Today I design and build custom platforms for small and growing businesses — combining product thinking, practical AI, and careful delivery so the result feels clear, human, and usable."
+      "I trained as a journalist. That still shapes how I work: ask clear questions, listen carefully, and find the real process behind the request — not just the surface symptoms.",
+      "I moved into product and building software because growing teams need more than another disconnected app. They need a digital workspace that matches how people actually collaborate.",
+      "Today I design and build custom platforms for small and growing businesses. The goal is simple: something your team can use every day, with practical AI only where it genuinely helps."
     ],
     "educationTitle": "Education",
     "edu1School": "Tyumen State University",
@@ -185,38 +182,38 @@
   },
   "faq": {
     "label": "FAQ",
-    "heading": "Practical questions before we start",
+    "heading": "Questions owners usually ask",
     "items": [
       {
+        "q": "What exactly will I get?",
+        "a": "A working digital workspace for your team — starting with a focused first version that solves a real daily problem (for example client records, documents, or task flow). We agree the scope in writing before build."
+      },
+      {
         "q": "What can be customized?",
-        "a": "Roles, screens, workflows, client-facing areas, document steps, automations, and how AI is used — scoped to what your business needs now."
+        "a": "Roles, screens, workflows, client-facing areas, document steps, automations, and where AI is used — limited to what your business needs now."
       },
       {
         "q": "Can you connect tools we already use?",
-        "a": "Often yes, when those tools offer a stable way to connect. We evaluate feasibility early so expectations stay realistic."
+        "a": "Often yes, when those tools allow a reliable connection. We check this early so you know what is realistic."
       },
       {
-        "q": "How big is a typical project?",
-        "a": "Most engagements start with a focused first version — enough to improve a real process — then grow module by module. Timeline depends on scope and readiness of your materials."
+        "q": "How does a project usually start?",
+        "a": "With a discovery conversation, then a scoped first solution, then build and launch. Expansion and ongoing support are optional after you are live."
       },
       {
-        "q": "Do you maintain the system after launch?",
-        "a": "Yes. We can agree on support for fixes, improvements, and the next modules so the workspace keeps matching your operations."
+        "q": "Do you support the system after launch?",
+        "a": "Yes, if we agree. That can include fixes, small improvements, and the next modules so the workspace stays useful."
       },
       {
-        "q": "How do you approach security?",
-        "a": "Access is role-based. Sensitive environments can use stronger authentication options. We avoid exposing private customer data in demos or marketing materials."
-      },
-      {
-        "q": "What happens after launch?",
-        "a": "Your team uses the system in real work. We review friction, prioritise improvements, and plan the next useful addition — without bloating the product."
+        "q": "How do you handle security and privacy?",
+        "a": "Access is based on roles. Stronger login options are available when needed. Private customer data is not used in marketing materials or public demos."
       }
     ]
   },
   "contact": {
     "label": "Contact",
-    "heading": "Let's talk about your workspace",
-    "intro": "Tell me how your business works today and where things get stuck. I'll come back with a clear next step — whether that is a custom build, a focused module, or an honest recommendation to stay with existing tools.",
+    "heading": "Ready to talk about your workspace?",
+    "intro": "Tell me how your business works today and where things get stuck. I'll reply with a clear next step — a custom build, a smaller first module, or an honest recommendation to stay with the tools you already have.",
     "languagesLabel": "Working languages",
     "languagesLead": "English · Russian",
     "location": "Based in Portugal",

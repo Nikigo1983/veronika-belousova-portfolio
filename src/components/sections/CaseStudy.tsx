@@ -26,6 +26,9 @@ export async function CaseStudy() {
                 <h3 className="font-display text-xl font-semibold text-fg">{t("solutionTitle")}</h3>
                 <p className="mt-3 text-base leading-relaxed text-muted">{t("solution")}</p>
               </div>
+              <p className="rounded-2xl border border-dashed border-border bg-white/60 px-5 py-4 text-sm leading-relaxed text-muted">
+                {t("visualPending")}
+              </p>
             </div>
           </Reveal>
 

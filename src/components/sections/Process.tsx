@@ -18,7 +18,7 @@ export async function Process() {
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">{t("intro")}</p>
         </Reveal>
 
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 xl:grid-cols-5">
+        <div className="mt-14 grid gap-5 sm:grid-cols-2 xl:grid-cols-4">
           {steps.map((step, i) => (
             <Reveal key={step.title} delay={i * 0.05}>
               <article className="surface-card h-full p-6">
