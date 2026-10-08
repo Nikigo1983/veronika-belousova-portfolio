@@ -6,13 +6,19 @@ import { AnimatePresence, motion } from "framer-motion";
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
-const navKeys = [
+/** Primary desktop nav — FAQ remains on-page, linked from mobile menu only. */
+const desktopNavKeys = [
   { href: "#capabilities", key: "capabilities" as const },
   { href: "#case-study", key: "caseStudy" as const },
   { href: "#process", key: "process" as const },
   { href: "#about", key: "about" as const },
-  { href: "#faq", key: "faq" as const },
   { href: "#contact", key: "contact" as const },
+];
+
+const mobileNavKeys = [
+  ...desktopNavKeys.slice(0, 4),
+  { href: "#faq", key: "faq" as const },
+  desktopNavKeys[4],
 ];
 
 export function Header() {
@@ -47,10 +53,10 @@ export function Header() {
           : "border-transparent bg-transparent",
       ].join(" ")}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-5 sm:h-[4.25rem] sm:gap-6 sm:px-8">
+      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-3 px-5 sm:h-[4.25rem] sm:gap-4 sm:px-8">
         <Link
           href="/"
-          className="flex items-center gap-2.5 transition-opacity hover:opacity-85"
+          className="flex min-w-0 items-center gap-2.5 transition-opacity hover:opacity-85"
           onClick={() => {
             setOpen(false);
             const { pathname, search, hash } = window.location;
@@ -58,33 +64,40 @@ export function Header() {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
         >
-          <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent text-[11px] font-bold tracking-[0.14em] text-white">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-accent text-[11px] font-bold tracking-[0.14em] text-white">
             {tHeader("brand")}
           </span>
-          <span className="hidden sm:flex flex-col leading-tight">
-            <span className="text-sm font-bold tracking-tight text-fg">{tHeader("brandName")}</span>
-            <span className="text-[10px] font-semibold uppercase tracking-[0.12em] text-muted">
+          <span className="hidden min-w-0 flex-col leading-tight sm:flex">
+            <span className="truncate text-sm font-bold tracking-tight text-fg">{tHeader("brandName")}</span>
+            <span className="hidden text-[10px] font-semibold uppercase tracking-[0.12em] text-muted xl:block">
               {tHeader("brandTag")}
             </span>
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-5 xl:flex" aria-label="Primary">
-          {navKeys.map(({ href, key }) => (
-            <a key={key} href={href} className="text-sm font-medium text-muted transition-colors hover:text-fg">
+        <nav
+          className="hidden items-center gap-1 lg:flex xl:gap-2"
+          aria-label="Primary"
+        >
+          {desktopNavKeys.map(({ href, key }) => (
+            <a
+              key={key}
+              href={href}
+              className="rounded-lg px-2 py-1.5 text-[0.8125rem] font-medium text-muted transition-colors hover:text-fg xl:px-2.5 xl:text-sm"
+            >
               {t(key)}
             </a>
           ))}
         </nav>
 
-        <div className="flex items-center gap-2.5 sm:gap-3">
+        <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <LanguageSwitcher />
-          <a href="#contact" className="btn-primary hidden px-5 py-2.5 text-xs sm:inline-flex">
+          <a href="#contact" className="btn-primary hidden px-4 py-2.5 text-xs sm:inline-flex lg:px-5">
             {t("cta")}
           </a>
           <button
             type="button"
-            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full border border-border bg-white/70 xl:hidden"
+            className="flex h-10 w-10 flex-col items-center justify-center gap-1.5 rounded-full border border-border bg-white/70 lg:hidden"
             aria-expanded={open}
             aria-controls="mobile-nav"
             aria-label={open ? t("menuClose") : t("menuOpen")}
@@ -105,10 +118,10 @@ export function Header() {
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
             transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
-            className="border-t border-border bg-[#f4f3ef]/98 backdrop-blur-md xl:hidden"
+            className="border-t border-border bg-[#f4f3ef]/98 backdrop-blur-md lg:hidden"
           >
             <div className="mx-auto flex max-w-6xl flex-col gap-1 px-5 py-5">
-              {navKeys.map(({ href, key }) => (
+              {mobileNavKeys.map(({ href, key }) => (
                 <a
                   key={key}
                   href={href}

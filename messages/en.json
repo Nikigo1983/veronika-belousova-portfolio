@@ -6,9 +6,9 @@
   "nav": {
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "capabilities": "What you get",
-    "caseStudy": "Example project",
-    "process": "How it works",
+    "capabilities": "What I Build",
+    "caseStudy": "SPIORA Project",
+    "process": "How It Works",
     "about": "About",
     "faq": "FAQ",
     "contact": "Contact",
@@ -27,7 +27,7 @@
     "tagline": "I design and build a custom digital workspace for your company — so client details, documents, tasks, and your team live in one place instead of five different tools.",
     "support": "Built around how your business already works. Not the other way around.",
     "ctaPrimary": "Discuss your project",
-    "ctaSecondary": "See an example project",
+    "ctaSecondary": "See SPIORA — a real platform I built",
     "role": "Founder · builds custom workspaces for small businesses",
     "photoAlt": "Veronika Belousova — portrait"
   },
