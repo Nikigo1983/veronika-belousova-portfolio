@@ -20,7 +20,7 @@ const sans = Manrope({
 });
 
 export const viewport: Viewport = {
-  themeColor: "#6d4dff",
+  themeColor: "#1f6b5a",
   width: "device-width",
   initialScale: 1,
 };

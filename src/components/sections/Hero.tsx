@@ -9,9 +9,9 @@ export function Hero() {
 
   return (
     <section id="hero" className="relative overflow-hidden pb-16 pt-28 sm:pb-24 sm:pt-32 md:pb-28 md:pt-36">
-      <div className="pointer-events-none absolute inset-0 bg-page-glow" />
+      <div className="pointer-events-none absolute inset-0 bg-page-surface" />
 
-      <div className="relative mx-auto grid w-full max-w-6xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-2 lg:gap-16">
+      <div className="relative mx-auto grid w-full max-w-6xl items-center gap-12 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr] lg:gap-16">
         <div>
           <motion.span
             initial={{ opacity: 0, y: 12 }}
@@ -27,10 +27,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.65, delay: 0.08 }}
-            className="mt-6 font-display text-[clamp(2.4rem,6vw,4.35rem)] font-semibold leading-[1.08] tracking-tight text-fg"
+            className="mt-6 max-w-2xl font-display text-[clamp(2.1rem,5.2vw,3.6rem)] font-semibold leading-[1.12] tracking-tight text-fg"
           >
-            <span className="block text-accent-strong">{t("titleLine1")}</span>
-            <span className="mt-2 block text-[0.72em] font-medium text-fg/85">{t("titleLine2")}</span>
+            {t("title")}
           </motion.h1>
 
           <motion.p
@@ -42,30 +41,28 @@ export function Hero() {
             {t("tagline")}
           </motion.p>
 
+          <motion.p
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.55, delay: 0.22 }}
+            className="mt-4 max-w-xl text-sm font-medium text-ink-soft sm:text-base"
+          >
+            {t("support")}
+          </motion.p>
+
           <motion.div
             initial={{ opacity: 0, y: 16 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.55, delay: 0.24 }}
+            transition={{ duration: 0.55, delay: 0.28 }}
             className="mt-9 flex flex-wrap gap-3"
           >
             <a href="#contact" className="btn-primary">
-              {t("ctaContact")}
+              {t("ctaPrimary")}
             </a>
-            <a href="#solutions" className="btn-secondary">
-              {t("ctaWork")}
+            <a href="#case-study" className="btn-secondary">
+              {t("ctaSecondary")}
               <span aria-hidden>→</span>
             </a>
-          </motion.div>
-
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.7, delay: 0.35 }}
-            className="mt-10 flex flex-wrap gap-x-8 gap-y-3 border-t border-border pt-8 text-sm text-muted"
-          >
-            <span>{t("point1")}</span>
-            <span>{t("point2")}</span>
-            <span>{t("point3")}</span>
           </motion.div>
         </div>
 
@@ -75,9 +72,8 @@ export function Hero() {
           transition={{ duration: 0.75, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
           className="relative mx-auto w-full max-w-md lg:max-w-none"
         >
-          <div className="absolute -inset-6 rounded-[2rem] bg-gradient-to-br from-accent/20 via-teal/10 to-transparent blur-2xl" />
-          <div className="relative overflow-hidden rounded-[1.75rem] border border-white/70 bg-white/70 p-3 shadow-[0_30px_80px_-28px_rgba(85,51,232,0.45)] backdrop-blur-sm sm:p-4">
-            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.25rem]">
+          <div className="relative overflow-hidden rounded-[1.5rem] border border-border bg-white p-3 shadow-[0_28px_70px_-36px_rgba(20,21,26,0.45)] sm:p-4">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.1rem]">
               <Image
                 src="/nika2.jpg"
                 alt={t("photoAlt")}
@@ -86,18 +82,8 @@ export function Hero() {
                 sizes="(max-width: 1024px) 90vw, 420px"
                 className="object-cover object-top"
               />
-              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-[#1b1633]/35 via-transparent to-white/10" />
             </div>
-            <div className="mt-4 grid grid-cols-2 gap-3">
-              <div className="rounded-2xl border border-border bg-white/90 px-4 py-3">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-accent">{t("cardLabel1")}</p>
-                <p className="mt-1 text-sm font-semibold text-fg">{t("cardValue1")}</p>
-              </div>
-              <div className="rounded-2xl border border-border bg-white/90 px-4 py-3">
-                <p className="text-[10px] font-semibold uppercase tracking-[0.16em] text-teal">{t("cardLabel2")}</p>
-                <p className="mt-1 text-sm font-semibold text-fg">{t("cardValue2")}</p>
-              </div>
-            </div>
+            <p className="mt-4 px-1 pb-1 text-sm font-medium text-muted">{t("role")}</p>
           </div>
         </motion.div>
       </div>

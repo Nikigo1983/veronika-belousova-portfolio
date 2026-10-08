@@ -1,26 +1,28 @@
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
-import { About } from "@/components/sections/About";
-import { Services } from "@/components/sections/Services";
+import { Problem } from "@/components/sections/Problem";
+import { Capabilities } from "@/components/sections/Capabilities";
+import { WhyCustom } from "@/components/sections/WhyCustom";
+import { CaseStudy } from "@/components/sections/CaseStudy";
 import { Process } from "@/components/sections/Process";
-import { Deployment } from "@/components/sections/Deployment";
-import { Portfolio } from "@/components/sections/Portfolio";
-import { Testimonials } from "@/components/sections/Testimonials";
+import { About } from "@/components/sections/About";
+import { Faq } from "@/components/sections/Faq";
 import { Contact } from "@/components/sections/Contact";
 
 export default async function HomePage() {
   return (
     <>
       <Header />
-      <main className="bg-page-glow pt-16">
+      <main className="bg-page-surface pt-16">
         <Hero />
-        <Services />
-        <Portfolio />
+        <Problem />
+        <Capabilities />
+        <WhyCustom />
+        <CaseStudy />
         <Process />
-        <Deployment />
         <About />
-        <Testimonials />
+        <Faq />
         <Contact />
       </main>
       <Footer />

@@ -1,49 +1,174 @@
 {
   "meta": {
-    "title": "Veronika Belousova — AI for Business",
-    "description": "Practical AI automation for sales, service, and CRM — designed, deployed, and scaled for measurable business outcomes."
+    "title": "Veronika Belousova — Custom digital workspaces for growing businesses",
+    "description": "I design and build custom digital workspaces for small and growing businesses — bringing clients, teams, documents, workflows and AI together in one place."
   },
   "nav": {
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "solutions": "Solutions",
-    "portfolio": "Work",
-    "process": "Process",
-    "deployment": "Deployment",
+    "capabilities": "What I build",
+    "caseStudy": "Case study",
+    "process": "How we work",
     "about": "About",
+    "faq": "FAQ",
     "contact": "Contact",
-    "cta": "Get Started"
+    "cta": "Discuss your project"
   },
   "header": {
     "brand": "VB",
     "brandName": "Veronika Belousova",
-    "brandTag": "AI for Business",
+    "brandTag": "Founder & AI Product Engineer",
     "langEn": "EN",
     "langRu": "RU"
   },
   "hero": {
-    "badge": "AI for Business",
-    "titleLine1": "Launch AI automation",
-    "titleLine2": "that moves real business metrics",
-    "tagline": "I design and roll out practical AI across sales, service, and CRM — solving concrete problems and delivering measurable impact on operations and revenue. The stack stays open: enterprise-ready models, modern data layers, and the systems you already use.",
-    "ctaWork": "View Solutions",
-    "ctaContact": "Schedule Consultation",
-    "point1": "Technology-agnostic approach",
-    "point2": "EN / RU communication",
-    "point3": "Based in Portugal",
-    "cardLabel1": "Focus",
-    "cardValue1": "AI automation",
-    "cardLabel2": "Scope",
-    "cardValue2": "Sales · Service · CRM",
+    "badge": "Custom digital workspaces",
+    "title": "Your business doesn't need another app. It needs a system that actually fits.",
+    "tagline": "I design and build custom digital workspaces for small and growing businesses — bringing clients, teams, documents, workflows and AI together in one place.",
+    "support": "Built around how your business works. Not the other way around.",
+    "ctaPrimary": "Discuss your project",
+    "ctaSecondary": "See a real project",
+    "role": "Founder & AI Product Engineer",
     "photoAlt": "Veronika Belousova — portrait"
+  },
+  "problem": {
+    "label": "The problem",
+    "heading": "Scattered tools slow teams down",
+    "intro": "Most growing businesses don't lack software. They lack a connected place where work actually happens.",
+    "items": [
+      {
+        "title": "Tools everywhere",
+        "detail": "Clients live in one app, documents in another, tasks in a third — and nobody has the full picture."
+      },
+      {
+        "title": "Duplicated work",
+        "detail": "The same details get retyped between forms, chats, and spreadsheets. Time disappears into busywork."
+      },
+      {
+        "title": "Missing context",
+        "detail": "When information is split, decisions slow down and handoffs break. People chase updates instead of serving customers."
+      },
+      {
+        "title": "Manual processes",
+        "detail": "Approvals, reminders, and routine checks stay human-only — even when they could be guided or automated carefully."
+      }
+    ]
+  },
+  "capabilities": {
+    "label": "What I can build",
+    "heading": "A workspace shaped around your operations",
+    "intro": "These are options we can combine for your company — not a fixed package you have to buy as one product.",
+    "items": [
+      {
+        "title": "Custom digital office",
+        "detail": "A shared home for your business: the screens, roles, and flows your team actually uses every day."
+      },
+      {
+        "title": "Client records & portals",
+        "detail": "Keep client information organised, and open a clear client-facing space when your process needs one."
+      },
+      {
+        "title": "Document workflows",
+        "detail": "Store, review, and move documents through the steps your business already follows."
+      },
+      {
+        "title": "Task management",
+        "detail": "Assign work, track progress, and keep ownership visible across the team."
+      },
+      {
+        "title": "Communication & meetings",
+        "detail": "Bring team chat and video meetings into the same environment when that reduces context switching."
+      },
+      {
+        "title": "Practical AI assistants",
+        "detail": "Use AI where it helps — drafting, sorting, summarising, or supporting document review — without turning your business into an experiment."
+      },
+      {
+        "title": "Integrations & automation",
+        "detail": "Connect tools you already rely on and automate the repetitive steps that eat into your week."
+      }
+    ]
+  },
+  "whyCustom": {
+    "label": "Why custom",
+    "heading": "Tailored to your process — not a shelf of features",
+    "intro": "Off-the-shelf software is often the right choice. Custom work makes sense when your process is the product — and existing tools force awkward workarounds.",
+    "items": [
+      {
+        "title": "Built around real workflows",
+        "detail": "We start from how your team already works, then design the system to support that flow."
+      },
+      {
+        "title": "Modular by design",
+        "detail": "Add only what you need now. Expand later when the next process is ready."
+      },
+      {
+        "title": "Incremental rollout",
+        "detail": "Ship in stages so your team can adopt changes without freezing day-to-day operations."
+      },
+      {
+        "title": "Works with what you have",
+        "detail": "When it is practical, we integrate existing systems instead of forcing a full replacement."
+      }
+    ]
+  },
+  "caseStudy": {
+    "label": "Featured case study",
+    "heading": "SPIORA — a custom workspace for an immigration business",
+    "contextTitle": "Business context",
+    "context": "Immigration work depends on accurate client records, careful document handling, and clear coordination across the team. Spreadsheets and disconnected tools make that harder as volume grows.",
+    "solutionTitle": "What we built",
+    "solution": "SPIORA is a custom digital workspace designed around that operating model — one place for client work, team coordination, and practical AI support. It is not a one-size-fits-all SaaS product; the shape of the platform follows the business process.",
+    "capabilitiesTitle": "Capabilities included in the platform",
+    "capabilitiesNote": "Listed from the implemented product surface. Some integrations can be enabled per environment.",
+    "capabilities": [
+      "Client records and CRM-style client views",
+      "Team tasks and shared calendars",
+      "Team chat for day-to-day coordination",
+      "Knowledge base for internal reference material",
+      "AI workspace for practical assisted work",
+      "Analytics overview for owners and managers",
+      "Video meetings support (LiveKit) when enabled for the environment",
+      "Role-based access and account settings, including MFA options"
+    ],
+    "disclaimer": "No private client data, internal URLs, or confidential screenshots are shown here. Metrics and client quotes are not invented.",
+    "cta": "Discuss a similar project"
+  },
+  "process": {
+    "label": "How we work",
+    "heading": "A clear path from conversation to launch",
+    "intro": "You always know what happens next — and what we are validating before we invest in the next stage.",
+    "steps": [
+      {
+        "title": "Discovery",
+        "detail": "We map how your business works today: people, tools, bottlenecks, and the outcomes that matter."
+      },
+      {
+        "title": "Scope & prototype",
+        "detail": "We define a focused first version and shape key screens so the direction is concrete before full build."
+      },
+      {
+        "title": "Build & validate",
+        "detail": "We implement in stages, test with real workflows, and adjust based on what the team actually needs."
+      },
+      {
+        "title": "Launch",
+        "detail": "We go live carefully — with access, roles, and handoff that your team can operate."
+      },
+      {
+        "title": "Improve",
+        "detail": "After launch we refine based on usage: fix friction, add the next module, and keep the system useful."
+      }
+    ]
   },
   "about": {
     "label": "About",
-    "trustTitle": "AI that earns trust in everyday work",
-    "trustParagraphs": [
-      "Anyone can plug in a chatbot. Building AI that staff actually use — and that improves forecast accuracy, response time, or win rate — is a different job.",
-      "My background in journalism and marketing helps me ask precise questions, hear the real process behind the request, and translate it into clear product requirements.",
-      "In delivery I combine that with code and integration work — connecting models, CRM, and workflows so form, meaning, and day-to-day usefulness stay aligned."
+    "heading": "I listen to how businesses work — then build the system around it",
+    "role": "Founder & AI Product Engineer",
+    "paragraphs": [
+      "My background is in journalism. That training is still the foundation of how I work: ask precise questions, listen carefully, and find the real process behind the request.",
+      "I moved into product and engineering because growing teams need more than another disconnected tool. They need a digital workspace that matches how people actually collaborate.",
+      "Today I design and build custom platforms for small and growing businesses — combining product thinking, practical AI, and careful delivery so the result feels clear, human, and usable."
     ],
     "educationTitle": "Education",
     "edu1School": "Tyumen State University",
@@ -58,197 +183,40 @@
     ],
     "certificateOpenHint": "Open full size"
   },
-  "services": {
-    "label": "AI for Business",
-    "heading": "AI solutions across core business functions",
-    "intro": "Intelligent automation for teams that need clear ROI — from pipeline quality and service speed to marketing relevance and CRM readiness. Built around your processes, not a vendor checklist.",
-    "expandItem": "Details",
-    "collapseItem": "Hide",
+  "faq": {
+    "label": "FAQ",
+    "heading": "Practical questions before we start",
     "items": [
       {
-        "title": "Sales",
-        "detail": "Predictive analytics to sharpen forecasting and prioritize the right deals. Pipeline forecasting, deal scoring, and sales optimization that help teams focus where win probability is highest."
+        "q": "What can be customized?",
+        "a": "Roles, screens, workflows, client-facing areas, document steps, automations, and how AI is used — scoped to what your business needs now."
       },
       {
-        "title": "Service",
-        "detail": "Smarter service operations with AI agents that classify cases, route work, and automate routine steps — so resolution gets faster and cost per ticket goes down."
+        "q": "Can you connect tools we already use?",
+        "a": "Often yes, when those tools offer a stable way to connect. We evaluate feasibility early so expectations stay realistic."
       },
       {
-        "title": "Marketing",
-        "detail": "AI-assisted campaign tuning and content support: optimize spend and messaging, generate assets faster, and personalize journeys with clearer intent signals."
+        "q": "How big is a typical project?",
+        "a": "Most engagements start with a focused first version — enough to improve a real process — then grow module by module. Timeline depends on scope and readiness of your materials."
       },
       {
-        "title": "Agent CX",
-        "detail": "Salesforce Agentforce and related agent experiences for stronger customer engagement — from guided conversations to assisted workflows inside the CRM you already trust."
+        "q": "Do you maintain the system after launch?",
+        "a": "Yes. We can agree on support for fixes, improvements, and the next modules so the workspace keeps matching your operations."
       },
       {
-        "title": "Quoting",
-        "detail": "Dynamic pricing and automated quote flows that cut manual effort, reduce errors, and keep commercial offers consistent with your pricing rules."
+        "q": "How do you approach security?",
+        "a": "Access is role-based. Sensitive environments can use stronger authentication options. We avoid exposing private customer data in demos or marketing materials."
       },
       {
-        "title": "Finance",
-        "detail": "AI support for financial operations and risk: forecasting, anomaly and fraud signals, and planning inputs that help finance move with more confidence."
-      },
-      {
-        "title": "HR",
-        "detail": "Smarter hiring and people workflows: CV screening, interview agents, and talent pipelines that reduce admin load without losing human judgment where it matters."
-      },
-      {
-        "title": "Contract management",
-        "detail": "Intelligent review of agreements — clause extraction, risk flags, and faster analysis so legal and sales can close with clearer visibility."
-      },
-      {
-        "title": "Order management",
-        "detail": "Demand forecasting and order optimization that improve fulfillment planning, inventory decisions, and day-to-day operational rhythm."
-      },
-      {
-        "title": "Salesforce AI",
-        "detail": "Enterprise-grade AI on Salesforce: CRM cleanup and setup, sales AI enablement, service automation, marketing activation, Customer 360 views, data/AI integrations, and CRM-driven process automation — each with a clear business impact."
-      },
-      {
-        "title": "Strategy & support",
-        "detail": "End-to-end guidance: cross-functional AI strategy and governance, business-case prioritization, conversational CX, personalization at scale, workflow automation, analytics for decisions, ongoing monitoring, and adoption programs so teams actually use what you ship."
-      },
-      {
-        "title": "Platforms",
-        "detail": "Open stack — ChatGPT / OpenAI, Claude / Anthropic, Azure AI, Gemini, Llama, Mistral, AWS Bedrock, and custom or on-premise models. We pick what fits the use case — no single-vendor lock-in."
-      }
-    ]
-  },
-  "deployment": {
-    "label": "Infrastructure",
-    "heading": "Deploy AI where your data and policies allow",
-    "intro": "Pick the hosting model that matches your security bar, compliance rules, and how your teams operate day to day.",
-    "cta": "Contact us",
-    "packages": [
-      {
-        "title": "Public cloud AI",
-        "summary": "Run on proven enterprise public-cloud platforms when speed and elasticity matter most.",
-        "points": [
-          "Fast go-live with room to scale",
-          "Production-grade cloud infrastructure",
-          "Usage-based costs that grow with demand",
-          "Multi-region availability and failover",
-          "Managed services with auto-scaling",
-          "Recovery patterns built into the stack"
-        ]
-      },
-      {
-        "title": "Private cloud AI",
-        "summary": "A dedicated cloud tenancy when you need stronger governance without leaving the cloud model.",
-        "points": [
-          "Tighter control over data and access",
-          "Isolated cloud resources for your org",
-          "Architecture prepared for audits and compliance",
-          "Security settings tailored to your policies",
-          "Network separation from shared environments",
-          "Stronger encryption options end to end"
-        ]
-      },
-      {
-        "title": "On-premise AI",
-        "summary": "Install inside infrastructure you own and operate when sovereignty and isolation are non-negotiable.",
-        "points": [
-          "Full control over where data lives",
-          "Runs on client-managed hardware and networks",
-          "Air-gapped setups when required",
-          "Hardware choices fitted to your stack",
-          "Highest bar for security and regulated use",
-          "No outbound data paths unless you choose them"
-        ]
-      }
-    ]
-  },
-  "process": {
-    "label": "How it works",
-    "heading": "A structured path to AI that sticks",
-    "intro": "A clear sequence from opportunity to scale — so every step has owners, milestones, and success metrics.",
-    "steps": [
-      {
-        "title": "Discovery & assessment",
-        "detail": "We map your processes and spot high-impact AI opportunities with realistic constraints and data readiness in mind."
-      },
-      {
-        "title": "Strategy & planning",
-        "detail": "A tailored roadmap with priorities, milestones, and measurable outcomes — before heavy build begins."
-      },
-      {
-        "title": "Implementation",
-        "detail": "Deploy AI into live workflows with minimal disruption to the systems and teams already running the business."
-      },
-      {
-        "title": "Optimization & scale",
-        "detail": "Monitor performance, refine models and prompts, and expand capabilities across functions as results prove out."
-      }
-    ]
-  },
-  "portfolio": {
-    "label": "Selected work",
-    "heading": "Projects that shipped",
-    "intro": "Digital products delivered for brands that care about clarity, presence, and results — the same delivery standard applied to AI initiatives.",
-    "visitSite": "Visit live site",
-    "projects": [
-      {
-        "title": "THE GOLDEN HORSE",
-        "description": "Dubai art gallery inspired by the grace and strength of horses — a refined digital space where legacy begins, emotion takes form, and living with art becomes a lifestyle.",
-        "url": "https://www.goldenhorse.art/"
-      },
-      {
-        "title": "KITCHEN by true Taste",
-        "description": "Brunch café in Torres Vedras, Portugal — full site with menu, events, gallery, reviews, and WhatsApp reservations; warm editorial layout and strong food photography rhythm.",
-        "url": "https://kitchen-truetaste.pt/"
-      },
-      {
-        "title": "Sudfinex",
-        "description": "Corporate site for an independent forensic accounting and financial expertise center in Russia — clear service architecture, trust-led content, and dense legal-grade information made scannable.",
-        "url": "https://www.sudfinex.ru/"
-      },
-      {
-        "title": "Sharp & Spice",
-        "description": "Creative agency website with a bold, expressive identity and clear growth message — sharp ideas that go beyond the ordinary through strategy, visual language, and digital products that help brands stand out and inspire.",
-        "url": "https://kaleidoscopic-sopapillas-a15621.netlify.app/"
-      },
-      {
-        "title": "s:stebler",
-        "description": "Multilingual website for a Swiss manufacturer of intelligent space solutions — product pillars, news, events, and showroom journeys with a precise architectural visual language. I contributed to the project as part of a collaborative team.",
-        "url": "https://www.stebler.ch/de"
-      }
-    ]
-  },
-  "testimonials": {
-    "label": "Testimonials",
-    "heading": "What clients say",
-    "items": [
-      {
-        "context": "Art gallery, The Golden Horse (Dubai)",
-        "quote": "Veronika built the site for our gallery, The Golden Horse, and from the first call it felt like she was inside the project with us — not just ticking boxes. She really got what we care about: art, horses, and the story we want to leave behind. The result is elegant, calm, and true to us. I’m genuinely happy to share the link with collectors and friends.",
-        "name": "Daria Tretskova",
-        "role": "Co-owner of the art gallery, Art manager, Art producer, horse rider"
-      },
-      {
-        "context": "Financial expertise center (Russia)",
-        "quote": "Veronika quickly understood the specifics of our work — complex and trust-driven. The website turned out clear, structured, and highly professional. I especially appreciated her attention to detail and smooth communication throughout the project.",
-        "name": "Elena Kashporova",
-        "role": "Founder, ANO TsNSBiFE"
-      },
-      {
-        "context": "Brunch café (Portugal)",
-        "quote": "It was important for me to reflect the atmosphere of our café — style, taste, and mood. Veronika captured it perfectly. The website looks beautiful, is easy to use, and truly helps us get more bookings.",
-        "name": "Oksana Golovanova",
-        "role": "Chef & Founder, KITCHEN by True Taste"
-      },
-      {
-        "context": "Creative agency (Slovakia)",
-        "quote": "As a creative agency, we have high standards — and Veronika delivered. Clean code, strong design, and a clear understanding of business needs. Working with her was both easy and professional.",
-        "name": "Zlata Moroz",
-        "role": "Founder, Sharp & Spice"
+        "q": "What happens after launch?",
+        "a": "Your team uses the system in real work. We review friction, prioritise improvements, and plan the next useful addition — without bloating the product."
       }
     ]
   },
   "contact": {
     "label": "Contact",
-    "heading": "Let’s plan your AI next step",
-    "intro": "Share the challenge — sales forecasting, service automation, CRM AI, or a full roadmap. I’ll reply with a concrete recommendation and how we can start.",
+    "heading": "Let's talk about your workspace",
+    "intro": "Tell me how your business works today and where things get stuck. I'll come back with a clear next step — whether that is a custom build, a focused module, or an honest recommendation to stay with existing tools.",
     "languagesLabel": "Working languages",
     "languagesLead": "English · Russian",
     "location": "Based in Portugal",

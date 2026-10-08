@@ -10,7 +10,7 @@ const CERTIFICATE_SRC = [
 
 export async function About() {
   const t = await getTranslations("about");
-  const trustParagraphs = t.raw("trustParagraphs") as string[];
+  const paragraphs = t.raw("paragraphs") as string[];
   const certificateAlts = t.raw("certificateAlts") as string[];
 
   return (
@@ -18,23 +18,15 @@ export async function About() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <span className="pill-badge">{t("label")}</span>
-
-          <aside className="relative mt-8 max-w-3xl overflow-hidden rounded-[1.75rem] border border-accent/20 bg-gradient-to-br from-accent/[0.1] via-white to-white shadow-[0_20px_50px_-30px_rgba(109,77,255,0.35)]">
-            <div
-              className="pointer-events-none absolute inset-y-0 left-0 w-[3px] bg-gradient-to-b from-accent via-accent/70 to-teal"
-              aria-hidden
-            />
-            <div className="relative pl-7 pr-8 py-10 sm:pl-9 sm:pr-12 sm:py-12">
-              <h2 className="font-display text-2xl font-semibold tracking-tight text-fg sm:text-3xl md:leading-snug">
-                {t("trustTitle")}
-              </h2>
-              <div className="mt-6 space-y-5 text-base leading-relaxed text-muted sm:text-lg">
-                {trustParagraphs.map((paragraph, i) => (
-                  <p key={i}>{paragraph}</p>
-                ))}
-              </div>
-            </div>
-          </aside>
+          <h2 className="mt-5 max-w-3xl font-display text-3xl font-semibold tracking-tight text-fg sm:text-5xl">
+            {t("heading")}
+          </h2>
+          <p className="mt-3 text-sm font-semibold uppercase tracking-[0.14em] text-accent">{t("role")}</p>
+          <div className="mt-6 max-w-3xl space-y-5 text-base leading-relaxed text-muted sm:text-lg">
+            {paragraphs.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </div>
 
           <p className="mt-14 text-xs font-semibold uppercase tracking-[0.22em] text-accent">
             {t("educationTitle")}
@@ -63,7 +55,7 @@ export async function About() {
                 href={src}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative overflow-hidden rounded-2xl border border-border bg-white p-3 shadow-sm transition-colors hover:border-accent/40"
+                className="group relative overflow-hidden rounded-2xl border border-border bg-white p-3 transition-colors hover:border-accent/40"
               >
                 <div className="relative aspect-[4/3] w-full">
                   <Image
