@@ -52,7 +52,7 @@ export function ContactForm() {
           name="name"
           required
           autoComplete="name"
-          className="w-full rounded-xl border border-border bg-white/[0.03] px-4 py-3.5 text-fg outline-none transition-colors placeholder:text-muted/50 focus:border-accent/50"
+          className="w-full rounded-xl border border-border bg-bg px-4 py-3.5 text-fg outline-none transition-colors placeholder:text-muted/50 focus:border-accent focus:ring-2 focus:ring-accent/20"
           placeholder=""
         />
       </div>
@@ -66,7 +66,7 @@ export function ContactForm() {
           type="email"
           required
           autoComplete="email"
-          className="w-full rounded-xl border border-border bg-white/[0.03] px-4 py-3.5 text-fg outline-none transition-colors focus:border-accent/50"
+          className="w-full rounded-xl border border-border bg-bg px-4 py-3.5 text-fg outline-none transition-colors focus:border-accent focus:ring-2 focus:ring-accent/20"
         />
       </div>
       <div>
@@ -78,14 +78,10 @@ export function ContactForm() {
           name="message"
           required
           rows={5}
-          className="w-full resize-none rounded-xl border border-border bg-white/[0.03] px-4 py-3.5 text-fg outline-none transition-colors focus:border-accent/50"
+          className="w-full resize-none rounded-xl border border-border bg-bg px-4 py-3.5 text-fg outline-none transition-colors focus:border-accent focus:ring-2 focus:ring-accent/20"
         />
       </div>
-      <button
-        type="submit"
-        disabled={submitting}
-        className="mt-2 inline-flex w-full items-center justify-center rounded-full border border-accent/40 bg-accent-soft py-4 text-sm font-medium tracking-wide text-accent transition-colors hover:border-accent hover:bg-accent/20 sm:w-auto sm:px-12"
-      >
+      <button type="submit" disabled={submitting} className="btn-primary mt-2 w-full sm:w-auto">
         {submitting ? t("formSubmitting") : t("formSubmit")}
       </button>
       <AnimatePresence>
@@ -106,7 +102,7 @@ export function ContactForm() {
             initial={{ opacity: 0, y: 8 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
-            className="text-sm text-red-300"
+            className="text-sm text-red-600"
           >
             {error}
           </motion.p>

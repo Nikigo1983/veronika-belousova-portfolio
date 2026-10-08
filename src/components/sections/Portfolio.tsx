@@ -4,7 +4,6 @@ import { PortfolioCard } from "./PortfolioCard";
 
 type Project = { title: string; description: string; url: string };
 
-/** Preview order matches `portfolio.projects`: Golden Horse, KITCHEN, Sudfinex, Sharp & Spice, Stebler */
 const PROJECT_PREVIEW_IMAGES = [
   "/portfolio/horse1.png",
   "/portfolio/website1.png",
@@ -20,17 +19,16 @@ export async function Portfolio() {
   const projects = t.raw("projects") as Project[];
 
   return (
-    <section id="portfolio" className="scroll-mt-24 border-t border-border py-24 sm:py-32">
+    <section id="portfolio" className="scroll-mt-24 border-t border-border py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
-          <p className="text-xs font-medium uppercase tracking-[0.35em] text-accent">
-            {t("label")}
-          </p>
-          <h2 className="mt-4 font-display text-4xl font-medium tracking-tight text-fg sm:text-5xl">
+          <span className="pill-badge">{t("label")}</span>
+          <h2 className="mt-5 font-display text-3xl font-semibold tracking-tight text-fg sm:text-5xl">
             {t("heading")}
           </h2>
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">{t("intro")}</p>
         </Reveal>
-        <div className="mt-16 grid gap-8 lg:grid-cols-3">
+        <div className="mt-14 grid gap-8 lg:grid-cols-3">
           {projects.map((project, i) => (
             <PortfolioCard
               key={project.url}

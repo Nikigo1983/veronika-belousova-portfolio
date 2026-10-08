@@ -1,26 +1,26 @@
 import type { ReactNode } from "react";
 import type { Viewport } from "next";
 import { headers } from "next/headers";
-import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Literata, Manrope } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import "./globals.css";
 
-const display = Cormorant_Garamond({
-  subsets: ["latin", "cyrillic"],
+const display = Literata({
+  subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-display",
-  weight: ["400", "500", "600", "700"],
+  weight: ["500", "600", "700"],
   display: "swap",
 });
 
-const sans = DM_Sans({
-  subsets: ["latin", "latin-ext"],
+const sans = Manrope({
+  subsets: ["latin", "latin-ext", "cyrillic"],
   variable: "--font-sans",
   weight: ["400", "500", "600", "700"],
   display: "swap",
 });
 
 export const viewport: Viewport = {
-  themeColor: "#0b0b0b",
+  themeColor: "#6d4dff",
   width: "device-width",
   initialScale: 1,
 };

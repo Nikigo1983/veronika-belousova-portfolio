@@ -1,48 +1,37 @@
 "use client";
 
-import { useLocale } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
-import { routing } from "@/i18n/routing";
-import { useTransition } from "react";
 
 export function LanguageSwitcher() {
+  const t = useTranslations("header");
   const locale = useLocale();
   const pathname = usePathname();
   const router = useRouter();
-  const [pending, startTransition] = useTransition();
 
   function switchTo(next: "en" | "ru") {
     if (next === locale) return;
-    startTransition(() => {
-      router.replace(pathname, { locale: next });
-    });
+    router.replace(pathname, { locale: next });
   }
 
   return (
-    <div
-      className="flex items-center gap-0.5 rounded-full border border-border bg-white/[0.03] p-1"
-      role="group"
-      aria-label="Language"
-    >
-      {routing.locales.map((code) => {
-        const active = code === locale;
-        return (
-          <button
-            key={code}
-            type="button"
-            onClick={() => switchTo(code as "en" | "ru")}
-            disabled={pending}
-            className={[
-              "min-w-[2.5rem] rounded-full px-2.5 py-1 text-xs font-medium tracking-wide transition-colors",
-              active
-                ? "bg-accent-soft text-accent"
-                : "text-muted hover:text-fg",
-            ].join(" ")}
-          >
-            {code.toUpperCase()}
-          </button>
-        );
-      })}
+    <div className="flex items-center gap-0.5 rounded-full border border-border bg-white/70 p-1 shadow-sm">
+      {(["en", "ru"] as const).map((code) => (
+        <button
+          key={code}
+          type="button"
+          onClick={() => switchTo(code)}
+          className={[
+            "min-w-[2.35rem] rounded-full px-2.5 py-1 text-xs font-semibold tracking-wide transition-colors",
+            locale === code
+              ? "bg-accent text-white shadow-sm"
+              : "text-muted hover:text-fg",
+          ].join(" ")}
+          aria-pressed={locale === code}
+        >
+          {code === "en" ? t("langEn") : t("langRu")}
+        </button>
+      ))}
     </div>
   );
 }

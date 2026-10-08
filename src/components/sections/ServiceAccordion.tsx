@@ -30,7 +30,7 @@ export function ServiceAccordion({ items }: ServiceAccordionProps) {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-32px" }}
             transition={{ duration: 0.45, delay: i * 0.06, ease: [0.22, 1, 0.36, 1] }}
-            className="group overflow-hidden rounded-2xl border border-border bg-white/[0.02] shadow-[inset_0_1px_0_rgba(255,255,255,0.04)] transition-colors hover:border-accent/25"
+            className="group overflow-hidden rounded-2xl border border-border bg-white shadow-[0_12px_36px_-24px_rgba(27,22,51,0.35)] transition-colors hover:border-accent/40"
           >
             <div className="grid grid-cols-[minmax(0,2.75rem)_1fr] items-start gap-x-4 sm:gap-x-5">
               <span

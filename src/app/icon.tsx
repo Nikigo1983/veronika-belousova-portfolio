@@ -13,12 +13,12 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#0b0b0b",
-          color: "#c9a962",
-          fontSize: 13,
-          fontWeight: 600,
-          letterSpacing: "0.2em",
-          fontFamily: "Georgia, 'Times New Roman', serif",
+          background: "linear-gradient(135deg, #7a5cff 0%, #5533e8 100%)",
+          color: "#ffffff",
+          fontSize: 12,
+          fontWeight: 700,
+          letterSpacing: "0.12em",
+          fontFamily: "system-ui, sans-serif",
         }}
       >
         VB

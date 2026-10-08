@@ -1,23 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --bg: #0b0b0b;
-  --fg: #fafafa;
-  --muted: #a3a3a3;
-  --accent: #c9a962;
-  --accent-soft: rgba(201, 169, 98, 0.14);
-  --border: rgba(255, 255, 255, 0.08);
+  --bg: #f7f6fc;
+  --bg-elevated: #ffffff;
+  --fg: #1b1633;
+  --muted: #6b6685;
+  --accent: #6d4dff;
+  --accent-strong: #5533e8;
+  --accent-soft: rgba(109, 77, 255, 0.12);
+  --accent-glow: rgba(109, 77, 255, 0.22);
+  --border: rgba(27, 22, 51, 0.1);
+  --teal: #3d8fa8;
   --font-display: var(--font-display);
   --font-sans: var(--font-sans);
 }
 
 @theme inline {
   --color-bg: var(--bg);
+  --color-bg-elevated: var(--bg-elevated);
   --color-fg: var(--fg);
   --color-muted: var(--muted);
   --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
   --color-accent-soft: var(--accent-soft);
+  --color-accent-glow: var(--accent-glow);
   --color-border: var(--border);
+  --color-teal: var(--teal);
   --font-sans: var(--font-sans);
   --font-display: var(--font-display);
 }
@@ -35,4 +43,77 @@ body {
 ::selection {
   background: var(--accent-soft);
   color: var(--fg);
+}
+
+.bg-page-glow {
+  background:
+    radial-gradient(ellipse 70% 50% at 12% 8%, rgba(109, 77, 255, 0.16), transparent 55%),
+    radial-gradient(ellipse 55% 45% at 88% 18%, rgba(61, 143, 168, 0.12), transparent 50%),
+    radial-gradient(ellipse 50% 40% at 50% 100%, rgba(109, 77, 255, 0.08), transparent 55%),
+    var(--bg);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, #7a5cff 0%, #5533e8 100%);
+  color: #ffffff;
+  padding: 0.875rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  box-shadow: 0 12px 28px -12px rgba(109, 77, 255, 0.55);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow: 0 16px 32px -12px rgba(109, 77, 255, 0.65);
+}
+
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1.5px solid rgba(109, 77, 255, 0.35);
+  background: rgba(255, 255, 255, 0.65);
+  color: var(--fg);
+  padding: 0.875rem 1.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: border-color 0.2s ease, background 0.2s ease, color 0.2s ease;
+}
+
+.btn-secondary:hover {
+  border-color: var(--accent);
+  background: #ffffff;
+  color: var(--accent-strong);
+}
+
+.pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 9999px;
+  border: 1px solid rgba(109, 77, 255, 0.2);
+  background: rgba(109, 77, 255, 0.08);
+  padding: 0.4rem 0.9rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--accent-strong);
+}
+
+.surface-card {
+  border-radius: 1.5rem;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: 0 18px 50px -28px rgba(27, 22, 51, 0.28);
+  backdrop-filter: blur(8px);
 }

@@ -41,7 +41,7 @@ export function ScrollToTop() {
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.96 }}
             aria-label={t("scrollToTop")}
-            className="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-border bg-bg/90 text-accent shadow-[0_12px_40px_-12px_rgba(0,0,0,0.45)] backdrop-blur-md transition-colors hover:border-accent/40 hover:bg-bg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/45 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
+            className="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full border border-border bg-white text-accent shadow-[0_12px_40px_-12px_rgba(109,77,255,0.45)] backdrop-blur-md transition-colors hover:border-accent/50 hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent/45 focus-visible:ring-offset-2 focus-visible:ring-offset-bg"
           >
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden>
               <path

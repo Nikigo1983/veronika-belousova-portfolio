@@ -1,42 +1,49 @@
 {
   "meta": {
-    "title": "Veronika Belousova — Premium Web Developer",
-    "description": "Premium web developer based in Portugal. High-converting websites, performance, and results for businesses that value quality."
+    "title": "Veronika Belousova — AI for Business",
+    "description": "Practical AI automation for sales, service, and CRM — designed, deployed, and scaled for measurable business outcomes."
   },
   "nav": {
     "menuOpen": "Open menu",
     "menuClose": "Close menu",
-    "home": "Home",
-    "work": "Work",
+    "solutions": "Solutions",
+    "portfolio": "Work",
+    "process": "Process",
+    "deployment": "Deployment",
     "about": "About",
-    "services": "Services",
-    "advantages": "My approach",
-    "results": "Results",
-    "portfolio": "Portfolio",
-    "digitalTools": "Digital tools",
-    "testimonials": "Testimonials",
-    "contact": "Contact"
+    "contact": "Contact",
+    "cta": "Get Started"
   },
   "header": {
     "brand": "VB",
+    "brandName": "Veronika Belousova",
+    "brandTag": "AI for Business",
     "langEn": "EN",
     "langRu": "RU"
   },
   "hero": {
-    "name": "Veronika Belousova",
-    "title": "Premium Web Developer",
-    "tagline": "I build websites and digital business tools that increase sales and strengthen trust in your business",
-    "ctaWork": "View Work",
-    "ctaContact": "Get in Touch",
+    "badge": "AI for Business",
+    "titleLine1": "Launch AI automation",
+    "titleLine2": "that moves real business metrics",
+    "tagline": "I design and roll out practical AI across sales, service, and CRM — solving concrete problems and delivering measurable impact on operations and revenue. The stack stays open: enterprise-ready models, modern data layers, and the systems you already use.",
+    "ctaWork": "View Solutions",
+    "ctaContact": "Schedule Consultation",
+    "point1": "Technology-agnostic approach",
+    "point2": "EN / RU communication",
+    "point3": "Based in Portugal",
+    "cardLabel1": "Focus",
+    "cardValue1": "AI automation",
+    "cardLabel2": "Scope",
+    "cardValue2": "Sales · Service · CRM",
     "photoAlt": "Veronika Belousova — portrait"
   },
   "about": {
     "label": "About",
-    "trustTitle": "A website as a trust instrument",
+    "trustTitle": "AI that earns trust in everyday work",
     "trustParagraphs": [
-      "Today almost anyone can launch a website. Building one that earns trust and brings clients is a completely different challenge.",
-      "My background is in journalism and marketing, so I know how to listen, ask precise questions, and sense what people really need.",
-      "In development I combine that with code—turning business ideas into clear, living interfaces where form, meaning, and ease of use work together."
+      "Anyone can plug in a chatbot. Building AI that staff actually use — and that improves forecast accuracy, response time, or win rate — is a different job.",
+      "My background in journalism and marketing helps me ask precise questions, hear the real process behind the request, and translate it into clear product requirements.",
+      "In delivery I combine that with code and integration work — connecting models, CRM, and workflows so form, meaning, and day-to-day usefulness stay aligned."
     ],
     "educationTitle": "Education",
     "edu1School": "Tyumen State University",
@@ -52,80 +59,133 @@
     "certificateOpenHint": "Open full size"
   },
   "services": {
-    "label": "Services",
-    "heading": "What I build",
+    "label": "AI for Business",
+    "heading": "AI solutions across core business functions",
+    "intro": "Intelligent automation for teams that need clear ROI — from pipeline quality and service speed to marketing relevance and CRM readiness. Built around your processes, not a vendor checklist.",
     "expandItem": "Details",
     "collapseItem": "Hide",
     "items": [
       {
-        "title": "Landing pages (high-converting)",
-        "detail": "Single-page sites that guide people toward an action—leave a request, book an appointment, or buy. Thoughtful structure, strong copy, and logic that actually performs."
+        "title": "Sales",
+        "detail": "Predictive analytics to sharpen forecasting and prioritize the right deals. Pipeline forecasting, deal scoring, and sales optimization that help teams focus where win probability is highest."
       },
       {
-        "title": "Corporate websites",
-        "detail": "Sites that reflect your level, explain what you do, and build trust within seconds. Clean structure, intuitive navigation, and a polished presentation."
+        "title": "Service",
+        "detail": "Smarter service operations with AI agents that classify cases, route work, and automate routine steps — so resolution gets faster and cost per ticket goes down."
       },
       {
-        "title": "E-commerce websites",
-        "detail": "Fast, easy-to-use stores where people can choose, purchase, and come back again. No clutter—only what helps the customer decide."
+        "title": "Marketing",
+        "detail": "AI-assisted campaign tuning and content support: optimize spend and messaging, generate assets faster, and personalize journeys with clearer intent signals."
       },
       {
-        "title": "Website redesign",
-        "detail": "I rework existing sites: remove noise, simplify structure, and bring the look up to date so the site starts delivering real results."
+        "title": "Agent CX",
+        "detail": "Salesforce Agentforce and related agent experiences for stronger customer engagement — from guided conversations to assisted workflows inside the CRM you already trust."
       },
       {
-        "title": "Custom development (React / JavaScript)",
-        "detail": "Built from scratch for your goals—no templates, no platform limits. Clean code, flexibility, and room to implement ambitious ideas."
+        "title": "Quoting",
+        "detail": "Dynamic pricing and automated quote flows that cut manual effort, reduce errors, and keep commercial offers consistent with your pricing rules."
+      },
+      {
+        "title": "Finance",
+        "detail": "AI support for financial operations and risk: forecasting, anomaly and fraud signals, and planning inputs that help finance move with more confidence."
+      },
+      {
+        "title": "HR",
+        "detail": "Smarter hiring and people workflows: CV screening, interview agents, and talent pipelines that reduce admin load without losing human judgment where it matters."
+      },
+      {
+        "title": "Contract management",
+        "detail": "Intelligent review of agreements — clause extraction, risk flags, and faster analysis so legal and sales can close with clearer visibility."
+      },
+      {
+        "title": "Order management",
+        "detail": "Demand forecasting and order optimization that improve fulfillment planning, inventory decisions, and day-to-day operational rhythm."
+      },
+      {
+        "title": "Salesforce AI",
+        "detail": "Enterprise-grade AI on Salesforce: CRM cleanup and setup, sales AI enablement, service automation, marketing activation, Customer 360 views, data/AI integrations, and CRM-driven process automation — each with a clear business impact."
+      },
+      {
+        "title": "Strategy & support",
+        "detail": "End-to-end guidance: cross-functional AI strategy and governance, business-case prioritization, conversational CX, personalization at scale, workflow automation, analytics for decisions, ongoing monitoring, and adoption programs so teams actually use what you ship."
+      },
+      {
+        "title": "Platforms",
+        "detail": "Open stack — ChatGPT / OpenAI, Claude / Anthropic, Azure AI, Gemini, Llama, Mistral, AWS Bedrock, and custom or on-premise models. We pick what fits the use case — no single-vendor lock-in."
       }
     ]
   },
-  "advantages": {
-    "label": "My approach",
-    "heading": "Why it works",
-    "items": [
+  "deployment": {
+    "label": "Infrastructure",
+    "heading": "Deploy AI where your data and policies allow",
+    "intro": "Pick the hosting model that matches your security bar, compliance rules, and how your teams operate day to day.",
+    "cta": "Contact us",
+    "packages": [
       {
-        "title": "No templates or builders—just code",
-        "detail": "Your site is built from scratch for your business: it runs faster, looks distinctive, and is not limited by what a platform allows."
+        "title": "Public cloud AI",
+        "summary": "Run on proven enterprise public-cloud platforms when speed and elasticity matter most.",
+        "points": [
+          "Fast go-live with room to scale",
+          "Production-grade cloud infrastructure",
+          "Usage-based costs that grow with demand",
+          "Multi-region availability and failover",
+          "Managed services with auto-scaling",
+          "Recovery patterns built into the stack"
+        ]
       },
       {
-        "title": "A site that helps you capture leads",
-        "detail": "The structure is designed so people quickly understand your offer and take the next step—message you, book, or buy."
+        "title": "Private cloud AI",
+        "summary": "A dedicated cloud tenancy when you need stronger governance without leaving the cloud model.",
+        "points": [
+          "Tighter control over data and access",
+          "Isolated cloud resources for your org",
+          "Architecture prepared for audits and compliance",
+          "Security settings tailored to your policies",
+          "Network separation from shared environments",
+          "Stronger encryption options end to end"
+        ]
       },
       {
-        "title": "Immersion in the business problem",
-        "detail": "Before we start, I study your product and audience so the site does not simply “exist,” but actually performs."
-      },
-      {
-        "title": "Reliability and security",
-        "detail": "Code-first sites are more stable, break less often, and are better protected against compromise."
-      },
-      {
-        "title": "Economical over the long run",
-        "detail": "No unnecessary subscriptions or platform lock-in—the site is easier to maintain and less costly to run over time."
-      },
-      {
-        "title": "Clean, careful engineering",
-        "detail": "Fast loading, stable behavior, and straightforward paths to evolve the product as the business grows."
-      },
-      {
-        "title": "Ease for the user",
-        "detail": "Everything clear, logical, and where it belongs—that builds trust and increases the chance someone reaches out."
-      },
-      {
-        "title": "Ready for growth and promotion",
-        "detail": "Built with future marketing in mind—so when you turn on ads, the site supports results instead of demanding a rebuild."
+        "title": "On-premise AI",
+        "summary": "Install inside infrastructure you own and operate when sovereignty and isolation are non-negotiable.",
+        "points": [
+          "Full control over where data lives",
+          "Runs on client-managed hardware and networks",
+          "Air-gapped setups when required",
+          "Hardware choices fitted to your stack",
+          "Highest bar for security and regulated use",
+          "No outbound data paths unless you choose them"
+        ]
       }
     ]
   },
-  "results": {
-    "label": "Value",
-    "heading": "Results that compound",
-    "p1": "I help businesses lift conversion and sales without increasing ad spend.",
-    "p2": "Your website should not just look good — it should generate revenue."
+  "process": {
+    "label": "How it works",
+    "heading": "A structured path to AI that sticks",
+    "intro": "A clear sequence from opportunity to scale — so every step has owners, milestones, and success metrics.",
+    "steps": [
+      {
+        "title": "Discovery & assessment",
+        "detail": "We map your processes and spot high-impact AI opportunities with realistic constraints and data readiness in mind."
+      },
+      {
+        "title": "Strategy & planning",
+        "detail": "A tailored roadmap with priorities, milestones, and measurable outcomes — before heavy build begins."
+      },
+      {
+        "title": "Implementation",
+        "detail": "Deploy AI into live workflows with minimal disruption to the systems and teams already running the business."
+      },
+      {
+        "title": "Optimization & scale",
+        "detail": "Monitor performance, refine models and prompts, and expand capabilities across functions as results prove out."
+      }
+    ]
   },
   "portfolio": {
-    "label": "Portfolio",
-    "heading": "Selected work",
+    "label": "Selected work",
+    "heading": "Projects that shipped",
+    "intro": "Digital products delivered for brands that care about clarity, presence, and results — the same delivery standard applied to AI initiatives.",
     "visitSite": "Visit live site",
     "projects": [
       {
@@ -152,30 +212,6 @@
         "title": "s:stebler",
         "description": "Multilingual website for a Swiss manufacturer of intelligent space solutions — product pillars, news, events, and showroom journeys with a precise architectural visual language. I contributed to the project as part of a collaborative team.",
         "url": "https://www.stebler.ch/de"
-      }
-    ]
-  },
-  "digitalTools": {
-    "label": "Digital tools",
-    "heading": "Digital business tools",
-    "intro": "Forms, client portals, and applications — real solutions I design, launch, and support for clients.",
-    "projects": [
-      {
-        "title": "Croatia digital nomad intake form",
-        "description": "A short online form: clients enter their details in Latin script and submit a request — so we can connect faster and start residence permit support.",
-        "visitLabel": "Open form",
-        "url": "https://share.formgrid.com/KB6n6nNQ8I8i0U5E"
-      },
-      {
-        "title": "Emigrant Croatia Desk",
-        "description": "A client portal where clients see the current stage of their Croatian residence permit case. Includes a client area and an admin panel for the team.",
-        "visitLabel": "Sign in to portal",
-        "url": "https://emigrant-croatia-desk.vercel.app/auth",
-        "highlights": [
-          "Case stages and status in one place",
-          "Access granted by an Emigrant administrator",
-          "Client zone and panel for the support team"
-        ]
       }
     ]
   },
@@ -211,7 +247,8 @@
   },
   "contact": {
     "label": "Contact",
-    "heading": "Let’s build something exceptional",
+    "heading": "Let’s plan your AI next step",
+    "intro": "Share the challenge — sales forecasting, service automation, CRM AI, or a full roadmap. I’ll reply with a concrete recommendation and how we can start.",
     "languagesLabel": "Working languages",
     "languagesLead": "English · Russian",
     "location": "Based in Portugal",

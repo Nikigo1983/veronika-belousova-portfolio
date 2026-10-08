@@ -42,7 +42,7 @@ export function PortfolioCard({
       viewport={{ once: true, margin: "-40px" }}
       transition={{ duration: 0.55, delay: index * 0.08, ease: [0.22, 1, 0.36, 1] }}
       whileHover={{ y: -8 }}
-      className="group overflow-hidden rounded-2xl border border-border bg-white/[0.02] transition-shadow hover:border-accent/35 hover:shadow-[0_24px_80px_-24px_rgba(201,169,98,0.12)]"
+      className="group overflow-hidden rounded-2xl border border-border bg-white transition-shadow hover:border-accent/40 hover:shadow-[0_24px_80px_-24px_rgba(109,77,255,0.22)]"
     >
       <div className="relative aspect-[16/10] overflow-hidden bg-[#0c0c0c]">
         <Image
@@ -63,8 +63,8 @@ export function PortfolioCard({
           className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/20 opacity-80 transition-opacity duration-500 group-hover:opacity-95"
           aria-hidden
         />
-        <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100 bg-[radial-gradient(circle_at_30%_20%,rgba(201,169,98,0.2),transparent_55%)]" />
-        <span className="pointer-events-none absolute bottom-4 left-4 font-display text-6xl font-medium text-white/[0.12]">
+        <div className="pointer-events-none absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100 bg-[radial-gradient(circle_at_30%_20%,rgba(109,77,255,0.25),transparent_55%)]" />
+        <span className="pointer-events-none absolute bottom-4 left-4 font-display text-6xl font-medium text-white/20">
           {String(index + 1).padStart(2, "0")}
         </span>
         <a

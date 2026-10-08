@@ -7,15 +7,14 @@ export async function Services() {
   const items = t.raw("items") as ServiceItem[];
 
   return (
-    <section id="services" className="scroll-mt-24 border-t border-border py-24 sm:py-32">
+    <section id="solutions" className="scroll-mt-24 border-t border-border py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
-          <p className="text-xs font-medium uppercase tracking-[0.35em] text-accent">
-            {t("label")}
-          </p>
-          <h2 className="mt-4 font-display text-4xl font-medium tracking-tight text-fg sm:text-5xl">
+          <span className="pill-badge">{t("label")}</span>
+          <h2 className="mt-5 font-display text-3xl font-semibold tracking-tight text-fg sm:text-5xl">
             {t("heading")}
           </h2>
+          <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">{t("intro")}</p>
         </Reveal>
         <ServiceAccordion items={items} />
       </div>
