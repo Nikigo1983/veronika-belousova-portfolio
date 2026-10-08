@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 132" role="img" aria-label="SPIORA">
+  <g fill="#FFFFFF" font-family="Inter, Arial, Helvetica, sans-serif" font-size="72" font-weight="700">
+    <text x="0" y="74">S</text>
+    <text x="78" y="74">P</text>
+    <text x="158" y="74">I</text>
+    <text x="312" y="74">R</text>
+  </g>
+
+  <g transform="translate(210 8)">
+    <path
+      d="M18 24 A30 30 0 1 0 54 24"
+      fill="none"
+      stroke="#F4981A"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+    <line
+      x1="36" y1="4" x2="36" y2="40"
+      stroke="#F4981A"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+  </g>
+
+  <path
+    d="M398 86 L442 14 L486 86"
+    fill="none"
+    stroke="#F4981A"
+    stroke-width="12"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <g font-family="Raleway, Inter, Arial, sans-serif" font-size="13" font-weight="500" letter-spacing="0.28em">
+    <text x="0" y="118" fill="#FFFFFF">ONE PLATFORM.</text>
+    <text x="228" y="118" fill="#F4981A">INFINITE SOLUTIONS.</text>
+  </g>
+</svg>

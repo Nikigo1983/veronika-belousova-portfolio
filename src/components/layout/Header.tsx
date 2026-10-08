@@ -39,10 +39,7 @@ export function Header() {
   }, [open]);
 
   return (
-    <motion.header
-      initial={{ y: -16, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+    <header
       className={[
         "fixed inset-x-0 top-0 z-50 border-b transition-all duration-300",
         scrolled || open
@@ -128,6 +125,6 @@ export function Header() {
           </motion.nav>
         ) : null}
       </AnimatePresence>
-    </motion.header>
+    </header>
   );
 }

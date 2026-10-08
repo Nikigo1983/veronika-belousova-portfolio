@@ -132,7 +132,17 @@
       "Role-based access, with stronger login options when needed"
     ],
     "disclaimer": "This page does not show private client data, internal links, or confidential screenshots. No invented results or fake client quotes.",
-    "visualPending": "Approved public logo and demo screenshots are not included yet — pending operator approval of assets that contain no personal data.",
+    "logoAlt": "SPIORA brand logo",
+    "screenshotsTitle": "Product views (coming next)",
+    "screenshotsIntro": "Approved demo screenshots will appear here. Until then, these slots mark what will be shown — no mocked product UI and no stock imagery presented as SPIORA.",
+    "screenshotSlot": "Slot {n}",
+    "screenshotPlaceholderHint": "Reserved for an approved public demo capture with no personal data.",
+    "screenshotPlaceholders": [
+      "Clients overview",
+      "Client record",
+      "Tasks & calendar",
+      "Team workspace home"
+    ],
     "cta": "Discuss a project like this"
   },
   "process": {
